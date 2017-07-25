@@ -1,10 +1,29 @@
-# geometry-combat
+# Geometry Combat
 
-# Instructions
+Geometry wars is a multiplayer game to play.
 
-* Clone recursively the repo: ```git clone --recursive ${REPO_URL}``` 
-	* Note: If you already did, clone the submodule 
-	```
-	git submodule init
-	git submodule update
-	```
+# Installation
+
+Install from source with:
+
+```
+$ git clone https://github.com/threemonkeybits/geometry-combat.git --recursive
+```
+
+* Note: If you already did, clone the submodule
+```
+git submodule init
+git submodule update
+```
+
+# Execute
+
+## Windows
+
+* Install [Python 3](https://www.python.org/downloads/) (mandatory to use Launch_game.bat)
+* Run [`Launch_game.bat`](https://github.com/threemonkeybits/geometry-combat/blob/master/Launch_game.bat)
+
+## GNU/Linux
+
+* Install python3
+* Run [`launch_gnulinux.sh`]
