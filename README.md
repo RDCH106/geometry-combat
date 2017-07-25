@@ -10,7 +10,8 @@ Install from source with:
 $ git clone https://github.com/threemonkeybits/geometry-combat.git --recursive
 ```
 
-* Note: If you already did, clone the submodule
+* Note: If you already did a clone without `recursive` param, clone the submodule with:
+
 ```
 git submodule init
 git submodule update
