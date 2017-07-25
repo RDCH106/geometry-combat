@@ -27,4 +27,4 @@ git submodule update
 ## GNU/Linux
 
 * Install python3
-* Run [`launch_gnulinux.sh`]
+* Run [`launch_gnulinux.sh`](https://github.com/threemonkeybits/geometry-combat/blob/master/launch_gnulinux.sh)
