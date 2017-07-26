@@ -1,0 +1,4 @@
+node_modules
+tasks/**/*.js
+app/**/*.js
+npm-debug.log
