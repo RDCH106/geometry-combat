@@ -17,14 +17,23 @@ git submodule init
 git submodule update
 ```
 
+Install NPM modules with:
+
+```
+npm install
+```
+
 # Execute
 
-## Windows
+```
+npm run dev
+````
 
-* Install [Python 3](https://www.python.org/downloads/) (mandatory to use Launch_game.bat)
-* Run [`Launch_game.bat`](https://github.com/threemonkeybits/geometry-combat/blob/master/Launch_game.bat)
+## Full tasks list
 
-## GNU/Linux
-
-* Install python3
-* Run [`launch_gnulinux.sh`](https://github.com/threemonkeybits/geometry-combat/blob/master/launch_gnulinux.sh)
+|Command|Description|
+|--|--|
+|`npm run compile`| Compiles game source files to JavaScript|
+|`npm run build.tasks`|Compiles tasks definitions|
+|`npm run dev`|Compiles game sources and starts a server with livereload|
+|`npm run watch`|Watches for changes in the source code and compiles them|
