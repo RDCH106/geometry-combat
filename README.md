@@ -17,13 +17,14 @@ $ git submodule init
 $ git submodule update
 ```
 
-### Node.js
+### Node.js (only if you want to launch it with developer tools)
 
 Install NPM modules with:
 
 ```
 $ npm install
 ```
+See [Develop section](https://github.com/threemonkeybits/geometry-combat#develop)
 
 ## Execute
 
