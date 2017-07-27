@@ -12,7 +12,7 @@ def run_server():
 
     # Only share app folder
     web_dir = os.path.join(os.path.dirname(__file__), 'app')
-    print(web_dir)
+    #print(web_dir)
     os.chdir(web_dir)
 
     Handler = http.server.SimpleHTTPRequestHandler
