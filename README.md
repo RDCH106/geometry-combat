@@ -35,6 +35,12 @@ See [Develop section](https://github.com/threemonkeybits/geometry-combat#develop
 * Install [Python 3](https://www.python.org/downloads/) (mandatory to use Launch_game.bat)
 * Run [`Launch_game.bat`](https://github.com/threemonkeybits/geometry-combat/blob/master/Launch_game.bat)
 
+
+#### GNU/Linux
+
+* Install Python3 with `apt-get install python3` (mandatory to use Launch_game.sh)
+* Run [`Launch_game.sh`](https://github.com/threemonkeybits/geometry-combat/blob/master/Launch_game.sh)
+
 ### Node.js
 
 ```
