@@ -2,7 +2,7 @@
 
 Geometry wars is a multiplayer game to play.
 
-# Installation
+## Installation
 
 Install from source with:
 
@@ -13,23 +13,30 @@ $ git clone https://github.com/threemonkeybits/geometry-combat.git --recursive
 * Note: If you already did a clone without `recursive` param, clone the submodule with:
 
 ```
-git submodule init
-git submodule update
+$ git submodule init
+$ git submodule update
 ```
+
+### Node.js
 
 Install NPM modules with:
 
 ```
-npm install
+$ npm install
 ```
 
-# Execute
+## Execute
+
+### Node.js
 
 ```
-npm run dev
-````
+$ npm run build.tasks (only first time)
+$ npm run dev
+```
 
-## Full tasks list
+## Develop
+
+### Full tasks list
 
 |Command|Description|
 |--|--|
