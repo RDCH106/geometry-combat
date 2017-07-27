@@ -27,6 +27,13 @@ $ npm install
 
 ## Execute
 
+### Python 
+
+#### Windows
+
+* Install [Python 3](https://www.python.org/downloads/) (mandatory to use Launch_game.bat)
+* Run [`Launch_game.bat`](https://github.com/threemonkeybits/geometry-combat/blob/master/Launch_game.bat)
+
 ### Node.js
 
 ```
