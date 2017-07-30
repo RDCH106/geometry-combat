@@ -1,6 +1,6 @@
 # Geometry Combat
 
-Geometry wars is a multiplayer game to play.
+Multiplayer game with simple and addictive game mechanics.
 
 ## Installation
 
