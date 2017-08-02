@@ -1,6 +1,6 @@
 # Geometry Combat
 
-Multiplayer game with simple and addictive game mechanics.
+:video_game: Multiplayer game with simple and addictive game mechanics.
 
 ## Installation
 
@@ -24,7 +24,7 @@ Install NPM modules with:
 ```
 $ npm install
 ```
-See [Develop section](https://github.com/threemonkeybits/geometry-combat#develop)
+See [Develop section](https://github.com/threemonkeybits/geometry-combat#develop) :wrench:
 
 ## Execute
 
@@ -50,7 +50,7 @@ $ npm run dev
 
 ## Develop
 
-### Full tasks list
+### Full tasks list :wrench:
 
 |Command|Description|
 |--|--|
