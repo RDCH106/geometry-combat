@@ -1,4 +1,4 @@
-/// <reference path="../lib/phaser-ce/typescript/phaser.d.ts" />
+import * as Phaser from 'phaser-ce'
 
 class GC {
 
