@@ -5,12 +5,13 @@ import * as source from 'vinyl-source-stream'
 import * as assign from 'lodash.assign'
 import * as watchify from 'watchify'
 import * as buffer from 'vinyl-buffer'
+import * as tsify from 'tsify'
 
 const bundlerOpts = {
     debug: true,
-    entries: ['src/game.ts'],
+    entries: ['src/main.ts'],
     plugin: [
-        ['tsify', { noImplicitAny: true, include: 'src/**/*.ts' }]
+        [tsify, { noImplicitAny: true, include: 'src/**/*.ts' }]
     ]
 }
 
