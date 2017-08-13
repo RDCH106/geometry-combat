@@ -34,6 +34,7 @@
     "gulp-typescript": "^3.2.1",
     "load-gulp-tasks": "^0.1.0",
     "lodash.assign": "^4.2.0",
+    "lodash.concat": "^4.5.0",
     "tsify": "^3.0.1",
     "typescript": "^2.4.2",
     "vinyl-buffer": "^1.0.0",
