@@ -29,16 +29,10 @@ gulp.task('libs', ['clean'], () => {
         .pipe(gulp.dest('app/js'))
 })
 
-gulp.task('bundle', ['assets'], () => {
+gulp.task('bundle', ['libs'], () => {
     return bundler.bundle()
         .pipe(plumber())
         .pipe(source('game.min.js'))
         .pipe(buffer())
         .pipe(gulp.dest('app/js'))
-})
-
-gulp.task('assets', ['libs'], () => {
-    return gulp.src('assets/**')
-        .pipe(plumber())
-        .pipe(gulp.dest('app/assets'))
 })
