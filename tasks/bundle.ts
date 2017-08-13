@@ -1,7 +1,6 @@
 import * as gulp from 'gulp'
 import * as plumber from 'gulp-plumber'
 import * as browserify from 'browserify'
-import * as browserSync from 'browser-sync'
 import * as source from 'vinyl-source-stream'
 import * as assign from 'lodash.assign'
 import * as watchify from 'watchify'
