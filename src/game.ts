@@ -1,6 +1,6 @@
-/// <reference path="../lib/phaser-ce/typescript/phaser.d.ts" />
+import * as Phaser from 'phaser-ce'
 
-class GC {
+export default class GC {
 
     private game: Phaser.Game
 
@@ -20,5 +20,3 @@ class GC {
         logo.anchor.setTo(0.5, 0.5)
     }
 }
-
-window.onload = () => { new GC() }

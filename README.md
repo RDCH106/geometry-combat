@@ -59,4 +59,3 @@ $ npm run dev
 |`npm run bundle`| Minifies game code after compile it|
 |`npm run clean`| Cleans *.js files and preserves *.min.js|
 |`npm run dev`|Compiles & minifies game sources and starts a server with livereload|
-|`npm run watch`|Watches for changes in the source code and compiles them|
