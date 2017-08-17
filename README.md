@@ -55,7 +55,6 @@ $ npm run dev
 |Command|Description|
 |--|--|
 |`npm run build.tasks`| Compiles tasks definitions|
-|`npm run compile`| Compiles game source files to JavaScript|
-|`npm run bundle`| Minifies game code after compile it|
-|`npm run clean`| Cleans *.js files and preserves *.min.js|
-|`npm run dev`|Compiles & minifies game sources and starts a server with livereload|
+|`npm run compile`| Compiles & minifies (make bundle) game source files to JavaScript|
+|`npm run clean`| Cleans `*.js` files|
+|`npm run dev`|Compiles & minifies game source files (make bundle) and starts a server with live-reload|
