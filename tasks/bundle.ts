@@ -36,3 +36,11 @@ gulp.task('bundle', ['libs'], () => {
         .pipe(buffer())
         .pipe(gulp.dest('app/js'))
 })
+
+gulp.task('compile', ['libs'], () => {
+    return browserify(opts).bundle()
+        .pipe(plumber())
+        .pipe(source('game.min.js'))
+        .pipe(buffer())
+        .pipe(gulp.dest('app/js'))
+})
