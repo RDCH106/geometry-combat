@@ -2,6 +2,8 @@
 
 :video_game: Multiplayer game with simple and addictive game mechanics.
 
+[Live Demo](https://rawgit.com/threemonkeybits/geometry-combat/master/app/index.html) --> It respresents the current state of the project loading game from repository.
+
 ## Installation
 
 Install from source with:
