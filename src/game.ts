@@ -11,7 +11,7 @@ export default class GC {
 
     private preload() {
 
-        this.game.load.image('logo', '../assets/phaser.png')
+        this.game.load.image('logo', 'js/../assets/phaser.png')
     }
 
     private create() {
